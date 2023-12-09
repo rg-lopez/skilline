@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/skilline/static/css/main.779b8f64.css",
-    "main.js": "/skilline/static/js/main.e8689bf8.js",
+    "main.css": "/skilline/static/css/main.40ec3349.css",
+    "main.js": "/skilline/static/js/main.a189657d.js",
     "static/js/787.d096fced.chunk.js": "/skilline/static/js/787.d096fced.chunk.js",
     "static/media/teenage-girl.png": "/skilline/static/media/teenage-girl.16de2cd476087d5ba862.png",
     "static/media/testimonial.png": "/skilline/static/media/testimonial.93d0e288ca5ec0752f3e.png",
@@ -10,12 +10,12 @@
     "static/media/feature-icon-billing.png": "/skilline/static/media/feature-icon-billing.d79201a0a5ac66cda040.png",
     "static/media/skilline.png": "/skilline/static/media/skilline.8591c54bc4ca775c24cf.png",
     "index.html": "/skilline/index.html",
-    "main.779b8f64.css.map": "/skilline/static/css/main.779b8f64.css.map",
-    "main.e8689bf8.js.map": "/skilline/static/js/main.e8689bf8.js.map",
+    "main.40ec3349.css.map": "/skilline/static/css/main.40ec3349.css.map",
+    "main.a189657d.js.map": "/skilline/static/js/main.a189657d.js.map",
     "787.d096fced.chunk.js.map": "/skilline/static/js/787.d096fced.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.779b8f64.css",
-    "static/js/main.e8689bf8.js"
+    "static/css/main.40ec3349.css",
+    "static/js/main.a189657d.js"
   ]
 }
