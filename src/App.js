@@ -27,7 +27,6 @@ function App() {
     <div className="App">
       <section id="section-header">
         <div className="overlay desktop"></div>
-
         <div className="wrapper">
           <div className="navbar">
             <a href="/" className="logo">
@@ -44,6 +43,15 @@ function App() {
                 <a className="btn btn-white" href="/">Login</a>
                 <a className="btn btn-secondary" href="/">Sign Up</a>
               </div>
+            </div>
+            <i id="toggle-sidebar" className="fas fa-layer-group"></i>
+            <div id="sidebar">
+                <a className="btn-link" href="/">Home</a>
+                <a className="btn-link" href="/">Careers</a>
+                <a className="btn-link" href="/">Blog</a>
+                <a className="btn-link" href="/">About Us</a>
+                <a className="btn btn-white" href="/">Login</a>
+                <a className="btn btn-secondary" href="/">Sign Up</a>
             </div>
           </div>
         </div>

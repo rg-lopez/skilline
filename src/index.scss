@@ -14,6 +14,11 @@ body {
     margin: 0;
     padding: 0;
     font-family: $primary-font;
+
+    &.no-scroll {
+        overflow: hidden;
+        height: 100%;
+    }
 }
 
 a {
@@ -335,6 +340,75 @@ section#section-header {
                 .button-group {
                     a:first-child {
                         margin: 0 34px 0 0;
+                    }
+                }
+            }
+            #toggle-sidebar {
+                color: #2F327D;
+                font-size: 30px;
+                transition: opacity 0.3s ease;
+                position: absolute;
+                right: 35px;
+                top: 40px;
+                z-index: 101;
+                opacity: 0;
+                transition: all 0.3s ease;
+
+                &.fa-close {
+                    color: #fff;
+                }
+
+                @media only screen and (max-width: $tablet) {
+                    opacity: 1;
+                }
+            }
+            #sidebar {
+                position: fixed;
+                top: 0;
+                right: 0;
+                padding: 0 30px;
+                display: flex;
+                flex-direction: column;
+                text-align: left;
+                background-color: #2f327dfc;
+                height: 100vh;
+                padding-top: 100px;
+                min-width: 65%;
+                z-index: 100;
+                box-shadow: unset;
+                border-left: 10px solid #f48c06;
+                transform: translate(100%, 0);
+                transition: all 0.4s ease;
+
+                &.active {
+                    box-shadow: 0 0 30px #4b4b4b;
+                    transform: translate(0%, 0);
+
+                    a {
+                        opacity: 1;
+                    }
+                }
+                
+                a {
+                    text-align: center;
+                    color: #fff;
+                    opacity: 0;
+                    transition: all 0.6s ease;
+
+                    &.btn-white {
+                        color: #F48C06;
+                    }
+
+                    &.btn-link {
+                        margin-right: 0;
+                        font-size: 16px;
+                        padding: 16px 0;
+                    }
+
+                    &.btn {
+                        margin-top: 15px;
+                        font-size: 16px;
+                        padding: 16px 0;
                     }
                 }
             }
